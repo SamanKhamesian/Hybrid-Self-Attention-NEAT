@@ -39,7 +39,7 @@ python3.7 -m pip install -r requirements.txt
 ###
 
 #### To run this project on Ubuntu server:
-_You need to uncomment the following lines in `experiments/configs/configs.py`_
+_You need to uncomment the following lines in_ `experiments/configs/configs.py`
 ~~~~
 _display = pyvirtualdisplay.Display(visible=False, size=(1400, 900))
 _display.start()
