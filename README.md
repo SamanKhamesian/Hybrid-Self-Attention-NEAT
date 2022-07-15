@@ -32,8 +32,9 @@ sudo apt install python3.7-distutils
 ~~~~
 ###
 
-#### To create a virtual environment, you can use the following link:
+_NOTE: To create a virtual environment, you can use the following link:_
 <br/> Creation of virtual environment: https://docs.python.org/3.7/library/venv.html
+
 #### To install packages via pip install:
 ~~~~
 python3.7 -m pip install -r requirements.txt
