@@ -62,9 +62,9 @@ apt-get install -y xvfb x11-utils
 ~~~~
 python3.7 -m experiment.runner
 ~~~~
-_NOTE: If you have limited resources (like RAM), you should decrease the number of iterations and instead use loops command_
+_NOTE: If you have limited resources (like RAM), you should decrease the number of iterations and instead use loops command (n is the number of iterations)_
 ~~~~
-for i in {1..<n>}; do python3.7 -m experiment.runner; done
+for i in {1..n}; do python3.7 -m experiment.runner; done
 ~~~~
 ###
 
@@ -74,9 +74,9 @@ for i in {1..<n>}; do python3.7 -m experiment.runner; done
 ~~~~
 python3.7 -m experiment.tunner
 ~~~~
-_NOTE: If you have limited resources (like RAM), you should decrease the number of iterations and instead use loops command_
+_NOTE: If you have limited resources (like RAM), you should decrease the number of iterations and instead use loops command (n is the number of iterations)_
 ~~~~
-for i in {1..<n>}; do python3.7 -m experiment.tunner; done
+for i in {1..n}; do python3.7 -m experiment.tunner; done
 ~~~~
 
 ### Citation
