@@ -2,7 +2,7 @@
 
 ### Abstract
 
-This repository contains the code to reproduce the results presented in the original [paper](https://arxiv.org/abs/2112.03670). <br/>
+This repository contains the code to reproduce the results presented in the original [paper](https://link.springer.com/article/10.1007/s12530-023-09510-3). <br/>
 In this article, we present a “Hybrid Self-Attention NEAT” method to improve the original NeuroEvolution of Augmenting Topologies (NEAT) algorithm in high-dimensional inputs. Although the NEAT algorithm has shown a significant result in different challenging tasks, as input representations are high dimensional, it cannot create a well-tuned network. Our study addresses this limitation by using self-attention as an indirect encoding method to select the most important parts of the input. In addition, we improve its overall performance with the help of a hybrid method to evolve the final network weights. The main conclusion is that Hybrid Self-Attention NEAT can eliminate the restriction of the original NEAT. The results indicate that in comparison with evolutionary algorithms, our model can get comparable scores in Atari games with raw pixels input with a much lower number of parameters.
 
 NOTE: The original implementation of self-attention for atari-games, and the NEAT algorithm can be found here:<br/>
