@@ -6,7 +6,9 @@ This repository contains the code to reproduce the results presented in the orig
 In this article, we present a “Hybrid Self-Attention NEAT” method to improve the original NeuroEvolution of Augmenting Topologies (NEAT) algorithm in high-dimensional inputs. Although the NEAT algorithm has shown a significant result in different challenging tasks, as input representations are high dimensional, it cannot create a well-tuned network. Our study addresses this limitation by using self-attention as an indirect encoding method to select the most important parts of the input. In addition, we improve its overall performance with the help of a hybrid method to evolve the final network weights. The main conclusion is that Hybrid Self-Attention NEAT can eliminate the restriction of the original NEAT. The results indicate that in comparison with evolutionary algorithms, our model can get comparable scores in Atari games with raw pixels input with a much lower number of parameters.
 
 NOTE: The original implementation of self-attention for atari-games, and the NEAT algorithm can be found here:<br/>
+
 Neuroevolution of Self-Interpretable Agents: https://github.com/google/brain-tokyo-workshop/tree/master/AttentionAgent <br/>
+Neat Package: https://github.com/CodeReclaimers/neat-python <br/>
 Pure python library for the NEAT and other variations: https://github.com/ukuleleplayer/pureples
 
 ### Execution
@@ -83,12 +85,5 @@ for i in {1..n}; do python3.7 -m experiment.tunner; done
 
 #### For attribution in academic contexts, please cite this work as:
 ~~~~
-@misc{khamesian2021hybrid,
-    title           = {Hybrid Self-Attention NEAT: A novel evolutionary approach to improve the NEAT algorithm}, 
-    author          = {Saman Khamesian and Hamed Malek},
-    year            = {2021},
-    eprint          = {2112.03670},
-    archivePrefix   = {arXiv},
-    primaryClass    = {cs.NE}
-}
+Khamesian, S., Malek, H. Hybrid self-attention NEAT: a novel evolutionary self-attention approach to improve the NEAT algorithm in high dimensional inputs. Evolving Systems (2023). https://doi.org/10.1007/s12530-023-09510-3
 ~~~~
