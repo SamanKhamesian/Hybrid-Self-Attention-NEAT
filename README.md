@@ -83,7 +83,17 @@ for i in {1..n}; do python3.7 -m experiment.tunner; done
 
 ### Citation
 
-#### For attribution in academic contexts, please cite this work as:
-~~~~
-Khamesian, S., Malek, H. Hybrid self-attention NEAT: a novel evolutionary self-attention approach to improve the NEAT algorithm in high dimensional inputs. Evolving Systems (2023). https://doi.org/10.1007/s12530-023-09510-3
-~~~~
+If you use this work in your research, please cite:
+
+```bibtex
+@article{khamesian2024hybrid,
+  title={Hybrid self-attention NEAT: a novel evolutionary self-attention approach to improve the NEAT algorithm in high dimensional inputs},
+  author={Khamesian, Saman and Malek, Hamed},
+  journal={Evolving Systems},
+  volume={15},
+  number={2},
+  pages={489--503},
+  year={2024},
+  publisher={Springer}
+}
+```
